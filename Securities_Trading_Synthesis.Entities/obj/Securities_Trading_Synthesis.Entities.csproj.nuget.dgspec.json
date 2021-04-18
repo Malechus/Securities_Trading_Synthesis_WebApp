@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj": {}
+    "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis.Entities\\Securities_Trading_Synthesis.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj": {
+    "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis.Entities\\Securities_Trading_Synthesis.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj",
-        "projectName": "Securities_Trading_Synthesis",
-        "projectPath": "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj",
+        "projectUniqueName": "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis.Entities\\Securities_Trading_Synthesis.Entities.csproj",
+        "projectName": "Securities_Trading_Synthesis.Entities",
+        "projectPath": "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis.Entities\\Securities_Trading_Synthesis.Entities.csproj",
         "packagesPath": "C:\\Users\\grkelly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\obj\\",
+        "outputPath": "C:\\Users\\grkelly\\source\\repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grkelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,12 +40,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -57,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -656,35 +656,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\garrett\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\grkelly\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\garrett\\source\\repos\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj",
+      "projectUniqueName": "C:\\Users\\grkelly\\Source\\Repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj",
       "projectName": "Securities_Trading_Synthesis",
-      "projectPath": "C:\\Users\\garrett\\source\\repos\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj",
-      "packagesPath": "C:\\Users\\garrett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\garrett\\source\\repos\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis\\obj\\",
+      "projectPath": "C:\\Users\\grkelly\\Source\\Repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\Securities_Trading_Synthesis.csproj",
+      "packagesPath": "C:\\Users\\grkelly\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\grkelly\\Source\\Repos\\Securities_Trading_Synthesis_WebApp\\Securities_Trading_Synthesis\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\garrett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\grkelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://colvsdbp01:8080/guestAuth/app/nuget/v1/FeedService.svc/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -696,6 +693,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
@@ -720,7 +718,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
